@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="izumiyouka"
+          fetch="https://github.com/IzumiYouka" />
+
+  <project name="device_xiaomi_alioth"
+           path="device/xiaomi/alioth"
+           remote="izumiyouka" revision="aosp-16" />
+
+  <project name="device_xiaomi_sm8250-common"
+           path="device/xiaomi/sm8250-common"
+           remote="izumiyouka" revision="aosp-16" />
+
+  <project name="vendor_xiaomi_alioth"
+           path="vendor/xiaomi/alioth"
+           remote="izumiyouka" revision="aosp-16" />
+
+  <project name="vendor_xiaomi_sm8250-common"
+           path="vendor/xiaomi/sm8250-common"
+           remote="izumiyouka" revision="aosp-16" />
+
+  <project name="device_xiaomi_camera"
+           path="device/xiaomi/camera"
+           remote="izumiyouka" revision="16.2" />
+
+  <project name="vendor_xiaomi_camera"
+           path="vendor/xiaomi/camera"
+           remote="izumiyouka" revision="16.2" />
+
+  <project name="android_kernel_xiaomi_sm8250"
+           path="kernel/xiaomi/sm8250"
+           remote="izumiyouka" revision="celestia" />
+
+  <project name="hardware_xiaomi"
+           path="hardware/xiaomi"
+           remote="izumiyouka" revision="aosp-16" />
+
+</manifest>
